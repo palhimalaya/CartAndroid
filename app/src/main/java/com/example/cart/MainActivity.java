@@ -45,9 +45,6 @@ public class MainActivity extends helper implements View.OnClickListener {
     }
 
     private void doDecrement() {
-        String countString;
-        countString = counter.getText().toString();
-        count = Integer.parseInt(countString);
         if (count>0){
         count--;
         counter.setText(String.valueOf(count));
@@ -55,10 +52,6 @@ public class MainActivity extends helper implements View.OnClickListener {
     }
 
     private void doIncrement() {
-        TextView counter = findViewById(R.id.counterValue);
-        String countString;
-        countString = counter.getText().toString();
-        count = Integer.parseInt(countString);
         count++;
         counter.setText(String.valueOf(count));
     }
