@@ -9,16 +9,16 @@
 
 
     <item
-        android:id="@+id/action_profile"
+        android:id="@+id/camera"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_account_circle_24"
-        android:title="Profile"/>
+        android:icon="@drawable/ic_baseline_camera_alt_24"
+        android:title="Camera"/>
 
     <item
-        android:id="@+id/action_activity"
+        android:id="@+id/audio"
         android:enabled="true"
-        android:icon="@drawable/ic_baseline_local_activity_24"
-        android:title="Activity Log"/>
+        android:icon="@drawable/ic_baseline_audiotrack_24"
+        android:title="Audio"/>
 
     <item
         android:id="@+id/action_videos"
